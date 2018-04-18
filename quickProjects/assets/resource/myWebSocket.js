@@ -8,41 +8,17 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-cc.Class({
-    extends: cc.Component,
-
-    properties: {
-        URL: {
-             // ATTRIBUTES:
-             default: "url",        // The default value will be used only when the component attaching
-                                   // to a node for the first time
-             //type: cc.String, // optional, default is typeof default
-             serializable: true,   // optional, default is true
-         },
-        //  bar: {
-        //      get () {
-        //          return this._bar;
-        //      },
-        //      set (value) {
-        //          this._bar = value;
-        //      }
-        //  }, 
-    },
-
-    // LIFE-CYCLE CALLBACKS:
-   
-     onLoad () 
+var myWebSocket =cc.Class({
+     Init:function(url) 
      {
-         var MSG = require("msg");
-         cc.game.addPersistRootNode(this.node);
-         this.ws = new WebSocket(this.URL);
+         this.ws = new WebSocket(url);
          this.ws.onopen = this._onWebSocketOpen;
          this.ws.onmessage = this._onWebSocketMessage;
          this.ws.onerror = this._onWebSocketError;
          this.ws.onclose = this._onWebSocketClose;
          this.ws.curSocketComponent = this;
          this.msgHandlerMap = new Map();
-         this.registMessageHandle(MSG.LoginMsgClient,this,this.handlerLogin);
+         //this.registMessageHandle(MSG.LoginMsgClient,this,this.handlerLogin);
          this.fr = new FileReader();
          this.fr.callbackObj = this;
          this.fr.onload = function() {
@@ -53,24 +29,11 @@ cc.Class({
         };
          
      },
-
-    start () {
-
-    },
-
-     update (dt) 
-     {
-
-     },
-     handlerLogin:function(msg)
-     {
-        cc.log("msg = "+ JSON.stringify(msg));
-     },
      sendMessage:function(msg)
      {
-        var sendMsg = {msg};
-        cc.log("msg = "+ JSON.stringify(sendMsg));
-        this.ws.send(JSON.stringify(sendMsg));
+       // var sendMsg = {msg};
+        cc.log("msg = "+ JSON.stringify(msg));
+        this.ws.send(JSON.stringify(msg));
      },
      _onWebSocketOpen:function(event)
      {
@@ -124,3 +87,6 @@ cc.Class({
         handler.delete(obj);
      },
 });
+var GameWebSocket = new myWebSocket();
+GameWebSocket.Init("ws://127.0.0.1:3463")
+module.exports = GameWebSocket;

@@ -1,62 +1,62 @@
-2018-04-12T09:23:58.263Z - normal: Load ~/.CocosCreator/settings.json
-2018-04-12T09:23:58.267Z - normal: checking language setting...
-2018-04-12T09:23:58.267Z - normal: Language: zh
-2018-04-12T09:23:59.156Z - success: protocol editor-framework registered
-2018-04-12T09:23:59.157Z - success: protocol app registered
-2018-04-12T09:23:59.157Z - success: protocol theme registered
-2018-04-12T09:23:59.157Z - success: protocol packages registered
-2018-04-12T09:23:59.157Z - success: protocol unpack registerred
-2018-04-12T09:23:59.157Z - success: protocol disable-commonjs registerred
-2018-04-12T09:23:59.472Z - normal: connected!
-2018-04-12T09:23:59.475Z - normal: Check project /Users/gaoguangxi/quick/quickProjects/starwar
-2018-04-12T09:23:59.477Z - normal: Initializing Cocos2d
-2018-04-12T09:23:59.720Z - normal: Initializing Asset Database
-2018-04-12T09:23:59.756Z - success: protocol uuid registerred
-2018-04-12T09:23:59.757Z - success: protocol db registerred
-2018-04-12T09:23:59.757Z - success: protocol thumbnail registerred
-2018-04-12T09:23:59.757Z - normal: Loading editor/builtin packages
-2018-04-12T09:23:59.779Z - success: anysdk loaded
-2018-04-12T09:23:59.907Z - success: assets loaded
-2018-04-12T09:23:59.911Z - success: builder loaded
-2018-04-12T09:23:59.913Z - success: cocos-analytics loaded
-2018-04-12T09:23:59.918Z - success: console loaded
-2018-04-12T09:23:59.951Z - success: fb-instant-games loaded
-2018-04-12T09:23:59.956Z - success: hierarchy loaded
-2018-04-12T09:23:59.961Z - success: inspector loaded
-2018-04-12T09:23:59.963Z - success: keystore loaded
-2018-04-12T09:23:59.972Z - success: node-library loaded
-2018-04-12T09:23:59.974Z - success: package-asset loaded
-2018-04-12T09:23:59.976Z - success: preferences loaded
-2018-04-12T09:23:59.979Z - success: project-exporter loaded
-2018-04-12T09:23:59.996Z - success: project-importer loaded
-2018-04-12T09:24:00.000Z - success: project-settings loaded
-2018-04-12T09:24:00.004Z - success: ui-kit loaded
-2018-04-12T09:24:00.009Z - success: ui-grid loaded
-2018-04-12T09:24:00.015Z - success: scene loaded
-2018-04-12T09:24:00.016Z - success: sprite-editor loaded
-2018-04-12T09:24:00.021Z - success: store loaded
-2018-04-12T09:24:00.027Z - success: timeline loaded
-2018-04-12T09:24:00.028Z - normal: Loading builtin packages
-2018-04-12T09:24:00.032Z - success: asset-db-debugger loaded
-2018-04-12T09:24:00.033Z - success: color-picker loaded
-2018-04-12T09:24:00.037Z - success: package-manager loaded
-2018-04-12T09:24:00.042Z - success: sdkbox loaded
-2018-04-12T09:24:00.048Z - success: tester loaded
-2018-04-12T09:24:00.052Z - success: ui-kit-preview-extra loaded
-2018-04-12T09:24:00.056Z - success: ui-kit-preview loaded
-2018-04-12T09:24:00.059Z - success: ui-tree loaded
-2018-04-12T09:24:01.120Z - normal: Initializing project /Users/gaoguangxi/quick/quickProjects/starwar
-2018-04-12T09:24:01.122Z - normal: Loading packages
-2018-04-12T09:24:01.127Z - normal: Watching packages
-2018-04-12T09:24:01.138Z - normal: Run Application
-2018-04-12T09:24:01.633Z - failed: [db-task][init] Failed to import asset /Users/gaoguangxi/quick/quickProjects/starwar/assets/resource/login.js, message: Compile error: SyntaxError: /Users/gaoguangxi/quick/quickProjects/starwar/assets/resource/login.js: Unexpected token (13:9)
-  11 | cc.Class({
+2018-04-18T06:06:19.430Z - normal: Load ~/.CocosCreator/settings.json
+2018-04-18T06:06:19.437Z - normal: checking language setting...
+2018-04-18T06:06:19.438Z - normal: Language: zh
+2018-04-18T06:06:20.585Z - success: protocol editor-framework registered
+2018-04-18T06:06:20.586Z - success: protocol app registered
+2018-04-18T06:06:20.586Z - success: protocol theme registered
+2018-04-18T06:06:20.586Z - success: protocol packages registered
+2018-04-18T06:06:20.587Z - success: protocol unpack registerred
+2018-04-18T06:06:20.587Z - success: protocol disable-commonjs registerred
+2018-04-18T06:06:20.868Z - normal: connected!
+2018-04-18T06:06:20.869Z - normal: Check project /Users/gaoguangxi/starwartest/quickProjects
+2018-04-18T06:06:20.872Z - normal: Initializing Cocos2d
+2018-04-18T06:06:21.159Z - normal: Initializing Asset Database
+2018-04-18T06:06:21.198Z - success: protocol uuid registerred
+2018-04-18T06:06:21.198Z - success: protocol db registerred
+2018-04-18T06:06:21.198Z - success: protocol thumbnail registerred
+2018-04-18T06:06:21.199Z - normal: Loading editor/builtin packages
+2018-04-18T06:06:21.218Z - success: anysdk loaded
+2018-04-18T06:06:21.356Z - success: assets loaded
+2018-04-18T06:06:21.361Z - success: builder loaded
+2018-04-18T06:06:21.363Z - success: cocos-analytics loaded
+2018-04-18T06:06:21.368Z - success: console loaded
+2018-04-18T06:06:21.408Z - success: fb-instant-games loaded
+2018-04-18T06:06:21.412Z - success: hierarchy loaded
+2018-04-18T06:06:21.417Z - success: inspector loaded
+2018-04-18T06:06:21.419Z - success: keystore loaded
+2018-04-18T06:06:21.428Z - success: node-library loaded
+2018-04-18T06:06:21.430Z - success: package-asset loaded
+2018-04-18T06:06:21.432Z - success: preferences loaded
+2018-04-18T06:06:21.436Z - success: project-exporter loaded
+2018-04-18T06:06:21.453Z - success: project-importer loaded
+2018-04-18T06:06:21.456Z - success: project-settings loaded
+2018-04-18T06:06:21.461Z - success: ui-kit loaded
+2018-04-18T06:06:21.465Z - success: ui-grid loaded
+2018-04-18T06:06:21.470Z - success: scene loaded
+2018-04-18T06:06:21.471Z - success: sprite-editor loaded
+2018-04-18T06:06:21.476Z - success: store loaded
+2018-04-18T06:06:21.482Z - success: timeline loaded
+2018-04-18T06:06:21.482Z - normal: Loading builtin packages
+2018-04-18T06:06:21.487Z - success: asset-db-debugger loaded
+2018-04-18T06:06:21.487Z - success: color-picker loaded
+2018-04-18T06:06:21.493Z - success: package-manager loaded
+2018-04-18T06:06:21.499Z - success: sdkbox loaded
+2018-04-18T06:06:21.505Z - success: tester loaded
+2018-04-18T06:06:21.509Z - success: ui-kit-preview-extra loaded
+2018-04-18T06:06:21.517Z - success: ui-kit-preview loaded
+2018-04-18T06:06:21.520Z - success: ui-tree loaded
+2018-04-18T06:06:22.839Z - normal: Initializing project /Users/gaoguangxi/starwartest/quickProjects
+2018-04-18T06:06:22.841Z - normal: Loading packages
+2018-04-18T06:06:22.846Z - normal: Watching packages
+2018-04-18T06:06:22.858Z - normal: Run Application
+2018-04-18T06:06:23.472Z - failed: [db-task][init] Failed to import asset /Users/gaoguangxi/starwartest/quickProjects/assets/resource/login.js, message: Compile error: SyntaxError: /Users/gaoguangxi/starwartest/quickProjects/assets/resource/login.js: Unexpected token (14:23)
   12 |     extends: cc.Component,
-> 13 |     edit = new cc.EditBox(),
-     |          ^
-  14 |     properties: {
-  15 |         // foo: {
-  16 |         //     // ATTRIBUTES:
+  13 |     properties: {
+> 14 |           _myWebSocket = require("myWebSocket"),
+     |                        ^
+  15 |           _MSG = require("msg"),
+  16 |     },
+  17 | 
     at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
     at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
     at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
@@ -67,6 +67,11 @@
     at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
     at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
     at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-2018-04-12T09:24:01.934Z - success: preview server running at http://localhost:7456
-2018-04-12T09:24:06.584Z - normal: 1.9.0
-2018-04-18T03:11:27.290Z - info: shutdown preview server
+2018-04-18T06:06:23.939Z - success: preview server running at http://localhost:7457
+2018-04-18T06:06:29.760Z - normal: 1.9.0
+2018-04-18T06:06:30.468Z - warn: Script attached to "webSocket" in scene "login.fire" is missing or invalid. Detailed information:
+Node path: "webSocket"
+Asset url: "db://assets/login.fire"
+Script UUID: "64431056-f3ce-485f-83f2-e39e28af748d"
+Class ID: "64431BW885IX4Py454or3SN"
+

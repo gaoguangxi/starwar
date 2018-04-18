@@ -11,24 +11,8 @@
 cc.Class({
     extends: cc.Component,
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
     },
-    _myWebSocket = require("myWebSocket"),
-    _MSG = require("msg"),
+
     // LIFE-CYCLE CALLBACKS:
 
      onLoad () 
@@ -38,7 +22,9 @@ cc.Class({
         this.userPassWord = "";
      },
     start () {
-    
+        this.MSG = require("msg");
+        this.gameWebSocket = require("myWebSocket");
+        this.gameWebSocket.registMessageHandle(this.MSG.LoginMsgClient,this,this.handlerLogin);
     },
     accountEditBoxDidEndEditing:function(sender) {
         this.userName = sender.string;
@@ -50,8 +36,10 @@ cc.Class({
         cc.log("button be Clicked");
         cc.log("userName = " + this.userName);
         cc.log("userPassWord = " + this.userPassWord);
-        _myWebSocket.sendMessage(_MSG.LoginMsgClient);
-        
+        var LoginMsgClient = new this.MSG.LoginMsgClient();
+        LoginMsgClient.LoginMsg.UserName = this.userName;
+        LoginMsgClient.LoginMsg.PassWord = this.userPassWord;
+        this.gameWebSocket.sendMessage(LoginMsgClient);   
     },
      update (dt) 
      {
@@ -69,4 +57,10 @@ cc.Class({
      {
 
      },
+        
+     handlerLogin:function(msg)
+     {
+        cc.log("msg = "+ JSON.stringify(msg));
+     },
+     
 });
