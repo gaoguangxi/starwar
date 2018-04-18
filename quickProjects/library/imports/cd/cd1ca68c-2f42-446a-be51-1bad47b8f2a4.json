@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_blueRectangle",
+    "texture": "de8a419a-c9f5-4183-bc9c-739ff54dcc91",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      173,
+      84
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      173,
+      84
+    ]
+  }
+}

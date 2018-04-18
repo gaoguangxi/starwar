@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_brownMetalFrame",
+    "texture": "180106ff-a348-4e7d-aa9b-c7dbcd9c5b9c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      75,
+      57
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      75,
+      57
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ic_gold_setting",
+    "texture": "2ecc0aec-866b-46c9-8386-dad121647ad4",
+    "atlas": "ce9255ef-f26a-4ea7-9f45-0c21d6cea5b9",
+    "rect": [
+      801,
+      356,
+      65,
+      75
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      85,
+      85
+    ],
+    "rotated": 1
+  }
+}

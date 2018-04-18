@@ -1,0 +1,92 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "ui.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "CN": {
+      "__uuid__": "d7fff7dd-60a8-44df-86f5-39e532e36ee5"
+    },
+    "Circle_1": {
+      "__uuid__": "734d30db-bb63-449a-a6a8-aa8e0ab5cacc"
+    },
+    "Diamond_1": {
+      "__uuid__": "58d2ca91-2cf9-4c67-a139-ea8be3052ab9"
+    },
+    "UI_hand": {
+      "__uuid__": "38dffa41-2dc8-439a-8be0-e9af10f812c2"
+    },
+    "bg_black10x10": {
+      "__uuid__": "1396ac18-d844-4c6e-ae80-4c1060f76c9b"
+    },
+    "bg_blueBubble": {
+      "__uuid__": "c1f3df1b-d2dc-441d-ae4c-9eaf9e4ea202"
+    },
+    "btn_blueGray_abate": {
+      "__uuid__": "4066a788-8577-4634-b1cc-69a83aab2412"
+    },
+    "btn_blueGray_add": {
+      "__uuid__": "eda4d9a9-4b5a-41dd-8064-d4d1e42fa4ea"
+    },
+    "btn_blueLarge": {
+      "__uuid__": "76c3695c-4ce8-406d-adbd-693cd7a2f1f3"
+    },
+    "btn_blueRectangle": {
+      "__uuid__": "58dd655f-2ea1-4865-884f-7d48d750386c"
+    },
+    "btn_blueReg_big": {
+      "__uuid__": "a54b05cf-b69f-4e88-a020-13312d30e429"
+    },
+    "btn_blue_01": {
+      "__uuid__": "148358b1-a5d8-4832-911d-bc8de083b032"
+    },
+    "btn_bluedark_back": {
+      "__uuid__": "200218c8-68d5-4cbe-ab54-0e7d6021d069"
+    },
+    "btn_bluedark_off": {
+      "__uuid__": "1dedbdd4-1b08-42fd-8d91-b4bc5e463784"
+    },
+    "btn_brownMetalFrame": {
+      "__uuid__": "0c044a49-a2c2-40ca-bce9-9477cf218323"
+    },
+    "btn_grayRect_cristal": {
+      "__uuid__": "931509e9-0578-4a14-9572-019269300f3d"
+    },
+    "btn_gray_01": {
+      "__uuid__": "462f4348-c5b6-489e-ab84-bf4bb80428da"
+    },
+    "btn_orange_big": {
+      "__uuid__": "d2de0e98-41a3-4649-a8df-3e6ba4b7bb1a"
+    },
+    "but_03": {
+      "__uuid__": "d8abf856-e601-4b11-a63e-83d9bf98f746"
+    },
+    "frame_brownDark_Square": {
+      "__uuid__": "7d03825f-6e38-4c0a-be92-be30b9b34a77"
+    },
+    "frame_grayCut": {
+      "__uuid__": "ba25411c-9ceb-4f9f-a5eb-4cc5dbf29be7"
+    },
+    "frame_grayRound": {
+      "__uuid__": "6bd9347a-2ec1-49e2-9ac3-04ee1d7d5afa"
+    },
+    "frame_redLight": {
+      "__uuid__": "42edddac-ca83-4c13-b6b4-a1ffa9626182"
+    },
+    "frame_yellowLight": {
+      "__uuid__": "dbac2f45-bcb6-4a71-bc87-5e65b0b57cfe"
+    },
+    "ic_blueArrows_small": {
+      "__uuid__": "a650082d-138e-4599-a70e-c9797b316a60"
+    },
+    "ic_blueLight_off": {
+      "__uuid__": "aa0dbc6b-99e7-42b1-b5d2-a43a2db16e4f"
+    },
+    "ic_gold_setting": {
+      "__uuid__": "99ec1f44-f697-47e1-9549-917cce21e96a"
+    },
+    "icon_free": {
+      "__uuid__": "ba0f6d51-6a72-4b4c-9c27-366f6f58b15f"
+    }
+  }
+}

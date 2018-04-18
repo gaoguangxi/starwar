@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_bluedark_off",
+    "texture": "2482d649-ecc0-4b72-9856-410149af6a21",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      133,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      133,
+      72
+    ]
+  }
+}

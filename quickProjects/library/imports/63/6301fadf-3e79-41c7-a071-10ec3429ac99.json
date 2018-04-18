@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ic_blueArrows_small",
+    "texture": "4bd03a8c-f237-4b90-972e-e43696c542d5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      42,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      42,
+      28
+    ]
+  }
+}
